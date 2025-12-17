@@ -13,7 +13,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI npcName;
 
     [Header("Dialogue Lines")]
-    [SerializeField] private string[] dialogueLines;
+    [SerializeField] private string[] dialogueLines = null;
     [SerializeField] private float typingSpeed = 0.02f;
     private int currentLineIndex = 0;
 
@@ -23,7 +23,7 @@ public class DialogueManager : MonoBehaviour
 
     public static DialogueManager instance;
 
-    private void Start()
+    private void Awake()
     {
         instance = this;
 
@@ -31,8 +31,6 @@ public class DialogueManager : MonoBehaviour
         {
             dialogueUI.SetActive(false);
         }
-
-        dialogueLines = null;
     }
     private void Update()
     {

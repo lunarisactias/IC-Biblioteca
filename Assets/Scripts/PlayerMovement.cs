@@ -5,6 +5,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float moveSpeed = 5f;
     private Rigidbody2D rb;
     private Vector2 movement;
+    public bool canMove = true;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -16,6 +17,12 @@ public class PlayerMovement : MonoBehaviour
 
     public void Move()
     {
+        if (DialogueManager.instance.isDialogueActive)
+        {
+            rb.linearVelocity = Vector2.zero;
+            return;
+        }
+
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
