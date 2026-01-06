@@ -5,10 +5,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float moveSpeed = 5f;
     private Rigidbody2D rb;
     private Vector2 movement;
-    public bool canMove = true;
+    public bool canMove;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        canMove = true;
     }
     void Update()
     {
@@ -17,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Move()
     {
-        if (DialogueManager.instance.isDialogueActive)
+        if (DialogueManager.instance.isDialogueActive || !canMove)
         {
             rb.linearVelocity = Vector2.zero;
             return;

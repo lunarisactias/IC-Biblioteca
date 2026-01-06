@@ -2,8 +2,12 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private int achievementsUnlocked = 0;
-    [SerializeField] private int totalAchievements = 10;
+    [Header("Inventory Info")]
+    [SerializeField] public GameObject inventory;
+
+    [SerializeField] public int collectablesUnlocked = 0;
+    [SerializeField] public int totalCollectables { get; private set; } = 6;
+
 
     public static GameManager instance;
     private void Awake()
@@ -17,5 +21,10 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void OpenCloseInventory()
+    {
+        inventory.SetActive(!inventory.activeSelf);
     }
 }
