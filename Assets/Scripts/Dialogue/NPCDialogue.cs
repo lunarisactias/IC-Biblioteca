@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class NPCDialogue : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class NPCDialogue : MonoBehaviour
 
     [Header("NPC Booleans")]
     [SerializeField] private bool canTalk = false;
+
+    [Header("Events")]
+    public UnityEvent onDialogueEnd;
 
     private void Update()
     {
@@ -26,8 +30,6 @@ public class NPCDialogue : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         canTalk = true;
-        Debug.Log("Press E to talk to " + npcName);
-        Debug.Log("Can talk: " + canTalk);
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
@@ -46,5 +48,4 @@ public class NPCDialogue : MonoBehaviour
     {
         return npcName;
     }
-
 }

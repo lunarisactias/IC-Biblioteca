@@ -21,8 +21,9 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] public bool isDialogueActive { get; private set; } = false;
     [SerializeField] private bool isTyping = false;
 
-    public static DialogueManager instance;
+    private NPCDialogue currentNPC;
 
+    public static DialogueManager instance;
     private void Awake()
     {
         instance = this;
@@ -51,15 +52,14 @@ public class DialogueManager : MonoBehaviour
     public void StartDialogue(NPCDialogue npcDialogue)
     {
         isDialogueActive = true;
+        currentNPC = npcDialogue;
+
         npcPortrait.sprite = npcDialogue.GetNPCPortrait();
         dialogueLines = npcDialogue.GetDialogueLines();
         npcName.text = npcDialogue.GetNPCName();
 
         currentLineIndex = 0;
-
         dialogueUI.SetActive(true);
-
-
         StartCoroutine(TypeSentence(dialogueLines[currentLineIndex]));
 
         if (dialogueLines.Length == 0) return;
@@ -84,6 +84,12 @@ public class DialogueManager : MonoBehaviour
         currentLineIndex = 0;
         dialogueLines = null;
         isDialogueActive = false;
+
+        if (currentNPC != null)
+        {
+            currentNPC.onDialogueEnd?.Invoke();
+            currentNPC = null;
+        }
     }
 
     IEnumerator TypeSentence(string sentence)
