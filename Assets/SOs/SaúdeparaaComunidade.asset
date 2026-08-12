@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd86c9e97ee5cfd4498f83e837b04a5a, type: 3}
+  m_Name: "Sa\xFAdeparaaComunidade"
+  m_EditorClassIdentifier: Assembly-CSharp::InfoSignData
+  signTitle: "Sa\xFAde para a Comunidade"
+  signText: "Nossos estudantes prestam servi\xE7os reais \xE0 comunidade! Temos a
+    Cl\xEDnica-Escola de Fonoaudiologia, a Cl\xEDnica de Odontologia com diversos
+    tratamentos e a Farm\xE1cia Comunit\xE1ria \"Vital Brazil\" para doa\xE7\xE3o
+    e retirada de medicamentos em parceria com a PUC/Sorocaba."

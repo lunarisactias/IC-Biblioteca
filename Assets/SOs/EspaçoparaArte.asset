@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd86c9e97ee5cfd4498f83e837b04a5a, type: 3}
+  m_Name: "Espa\xE7oparaArte"
+  m_EditorClassIdentifier: Assembly-CSharp::InfoSignData
+  signTitle: "Espa\xE7o para Arte"
+  signText: "A biblioteca \xE9 muito mais do que um dep\xF3sito de livros; \xE9 um
+    espa\xE7o vivo de encontros e descobertas. N\xF3s cedemos nosso espa\xE7o para
+    eventos e exposi\xE7\xF5es art\xEDsticas que podem durar de 15 a 30 dias. \xC9
+    aqui que a cultura ganha forma!"

@@ -10,30 +10,56 @@ public class NPCDialogue : MonoBehaviour
     [Header("Dialogue Lines")]
     [SerializeField] private string[] dialogueLines;
 
-    [Header("NPC Booleans")]
-    [SerializeField] private bool canTalk = false;
+    [Header("Configurações do Gatilho")]
+    [Tooltip("Se marcado, o diálogo inicia sozinho ao entrar no colisor.")]
+    [SerializeField] private bool startOnEnter = false;
+    [Tooltip("Garante que o diálogo automático aconteça apenas uma vez.")]
+    [SerializeField] private bool triggerOnlyOnce = true;
 
     [Header("Events")]
     public UnityEvent onDialogueEnd;
 
+    private bool canTalk = false;
+    private bool hasTriggered = false;
+
     private void Update()
     {
-        if (canTalk && Input.GetKeyDown(KeyCode.E))
+        if (!startOnEnter && canTalk && Input.GetKeyDown(KeyCode.E))
         {
-            if (DialogueManager.instance != null && !DialogueManager.instance.isDialogueActive)
-            {
-                DialogueManager.instance.StartDialogue(this);
-            }
+            TryStartDialogue();
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        canTalk = true;
+        if (collision.CompareTag("Player"))
+        {
+            canTalk = true;
+
+            if (startOnEnter)
+            {
+                if (triggerOnlyOnce && hasTriggered) return;
+
+                TryStartDialogue();
+            }
+        }
     }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
-        canTalk = false;
+        if (collision.CompareTag("Player"))
+        {
+            canTalk = false;
+        }
+    }
+
+    private void TryStartDialogue()
+    {
+        if (DialogueManager.instance != null && !DialogueManager.instance.isDialogueActive)
+        {
+            hasTriggered = true;
+            DialogueManager.instance.StartDialogue(this);
+        }
     }
 
     public string[] GetDialogueLines()

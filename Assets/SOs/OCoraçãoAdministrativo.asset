@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd86c9e97ee5cfd4498f83e837b04a5a, type: 3}
+  m_Name: "OCora\xE7\xE3oAdministrativo"
+  m_EditorClassIdentifier: Assembly-CSharp::InfoSignData
+  signTitle: "O Cora\xE7\xE3o Administrativo"
+  signText: "Precisa resolver uma quest\xE3o acad\xEAmica ou financeira? O SAA (Servi\xE7o
+    de Atendimento ao Aluno) e o SECOB (Setor de Cobran\xE7a) ficam no 1\xBA andar
+    do Pr\xE9dio Administrativo na Cidade Universit\xE1ria. Para evitar filas, os
+    atendimentos presenciais devem ser agendados pela \xC1rea do Aluno ou APP."

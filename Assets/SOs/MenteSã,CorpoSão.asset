@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd86c9e97ee5cfd4498f83e837b04a5a, type: 3}
+  m_Name: "MenteS\xE3,CorpoS\xE3o"
+  m_EditorClassIdentifier: Assembly-CSharp::InfoSignData
+  signTitle: "Mente S\xE3, Corpo S\xE3o"
+  signText: "Sabia que a Uniso tem uma academia no 4\xBA andar do Bloco B? E o melhor:
+    a mensalidade \xE9 totalmente gratuita para alunos, professores e funcion\xE1rios
+    da institui\xE7\xE3o! O curso de Educa\xE7\xE3o F\xEDsica tamb\xE9m promove eventos
+    esportivos ao longo do semestre."

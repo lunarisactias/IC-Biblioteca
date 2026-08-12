@@ -1,0 +1,73 @@
+Titulo: Quem Somos?
+Texto: A Uniso é uma Universidade Comunitária, ou seja, uma instituição sem fins lucrativos. Nosso compromisso é formar profissionais e produzir conhecimento para ser agentes de mudanças sociais em Sorocaba e região. Ah, e temos orgulho da nossa nota máxima (5) concedida pelo MEC!
+===
+Titulo: Nossos Espaços
+Texto: Você sabia que a Uniso possui dois câmpus principais? A Cidade Universitária "Professor Aldo Vannucchi", localizada na Rodovia Raposo Tavares, e o Câmpus Trujillo, que atende exclusivamente o curso de Pedagogia Integral.
+===
+Titulo: Fique de Olho na Frequência!
+Texto: Para ser aprovado, você precisa cumprir 75% da carga horária de cada componente curricular. Isso significa que, se você tem 2 aulas semanais, pode faltar até 10 vezes. Atestados médicos dão direito a exercícios domiciliares apenas se o afastamento for igual ou superior a 7 dias.
+===
+Titulo: Como Funcionam as Notas?
+Texto: As notas na Uniso vão de 0 a 10. Para passar, a sua nota final precisa ser igual ou superior a 6,0. A média é calculada com base na Nota Parcial 1 (peso de 40%) e na Nota Parcial 2 (peso de 60%).
+===
+Titulo: A Uniso na Palma da Mão
+Texto: O APP Uniso é o seu melhor amigo! Com ele, você pode conferir suas notas, faltas, acessar a carteirinha digital com o seu Registro Acadêmico (RA) e até ver os horários de ônibus. Baixe na Play Store ou Apple Store.
+===
+Titulo: Precisando de Ajuda?
+Texto: A vida acadêmica tem seus desafios, e a Uniso oferece o programa "Uniso Go Beyond" para ajudar. Ele oferece oficinas de aprendizagem, orientação profissional e até apoio psicológico através da nossa Clínica-Escola de Psicologia.
+===
+Titulo: Além da Sala de Aula
+Texto: Quer dar um passo além? Você pode participar de programas de Iniciação Científica (como o PIBIC) ou de Extensão Universitária (PROBEX) para desenvolver projetos práticos com orientação docente. Alguns desses programas oferecem bolsas de estudo!
+===
+Titulo: Onde Estudar e Relaxar?
+Texto: A Uniso conta com mais de 100 laboratórios para atividades de ensino e pesquisa, além de laboratórios de informática com acesso ao pacote Office 365. E no Câmpus Trujillo, temos a Ludoteca, um espaço com mesas para estudos e jogos.
+===
+Titulo: Ensino por Competências
+Texto: Desde 2022, os cursos da Uniso adotaram um currículo focado em conhecimentos, habilidades e atitudes. A teoria e a prática caminham sempre juntas, com Projetos Integradores desenvolvidos a cada semestre e disciplinas focadas na sua Vida e Carreira.
+=== Titulo: Uniso Tech
+Texto: Procurando inovar? A UNISO Tech é o nosso Instituto de Ciência e Tecnologia. Aqui, oferecemos suporte para startups e projetos de empreendedorismo. Estudantes também podem participar da "Jornada Startup" para desenvolver suas próprias ideias com o apoio do Sebrae Sorocaba!
+===
+Titulo: Apoio à Saúde
+Texto: Você sabia que a Uniso possui Clínicas Integradas de Saúde abertas à comunidade? No térreo do Bloco A, estudantes e moradores podem buscar atendimento gratuito na Clínica-Escola de Psicologia, orientação na Clínica de Nutrição e suporte no Núcleo de Acessibilidade.
+===
+Titulo: Compartilhando Bicicletas
+Texto: Cansado de andar de um bloco para o outro? Conheça o "uMove", o nosso projeto de compartilhamento de bicicletas! Você encontrará vários pontos estratégicos de retirada e devolução espalhados pela Cidade Universitária, contribuindo para a sustentabilidade do nosso câmpus.
+===
+Titulo: Empreenda na UNISO
+Texto: Se você tem um negócio próprio, precisa conhecer o "My Box"! É uma feira semanal de incentivo ao empreendedorismo estudantil onde você pode vender e comprar produtos artesanais e exclusivos diretamente de outros alunos. Ela acontece no 1º Piso da Biblioteca.
+===
+Titulo: Achados e Perdidos
+Texto: Esqueceu o caderno ou perdeu a chave do carro? Não se desespere! A nossa área de Achados e Perdidos fica na Recepção Central do Prédio Administrativo na Cidade Universitária. Se estiver no Câmpus Trujillo, basta procurar os atendentes nos corredores durante a noite.
+===
+Titulo: Uniso Ciência
+Texto: A pesquisa não para! O projeto "Uniso Ciência" divulga os resultados dos nossos Mestrados e Doutorados de forma acessível. Temos a Revista bilíngue Science@Uniso, além de um Jornal trimestral impresso e um Blog online cheio de reportagens fascinantes.
+===
+Titulo: Um Câmpus Sustentável
+Texto: O meio ambiente agradece! A Uniso possui o "Green Academy", um programa focado em implementar práticas de sustentabilidade em diversas frentes da instituição. Graças a ele, fazemos parte do ranking mundial UI GreenMetric World University Rankings Network!
+===
+Titulo: Pausa para o Lanche
+Texto: Bateu aquela fome nos intervalos de aula? Opções não faltam! A Cidade Universitária conta com um restaurante completo no Bloco D, além de diversas cantinas, máquinas de snacks, food trucks e até micro-ondas à disposição dos alunos espalhados pelos blocos!
+===
+Titulo: Atendimento Veterinário
+Texto: A Uniso conta com uma Clínica Veterinária Universitária, localizada na entrada do Horto Florestal na Cidade Universitária. Ela oferece atendimento clínico, cirúrgico e de diagnóstico para animais de pequeno e grande porte, e até animais silvestres, sempre mediante agendamento.
+===
+Titulo: Aprender Não Tem Idade
+Texto: A educação deve ser constante! O programa "Uniso Vida Toda" é voltado para pessoas a partir dos 50 anos que desejam atualizar conhecimentos, redimensionar projetos de vida e ampliar suas relações sociais. Também oferecemos diversos cursos de curta duração e cursos livres online.
+===
+Titulo: Mente Sã, Corpo São
+Texto: Sabia que a Uniso tem uma academia no 4º andar do Bloco B? E o melhor: a mensalidade é totalmente gratuita para alunos, professores e funcionários da instituição! O curso de Educação Física também promove eventos esportivos ao longo do semestre.
+===
+Titulo: Saúde para a Comunidade
+Texto: Nossos estudantes prestam serviços reais à comunidade! Temos a Clínica-Escola de Fonoaudiologia, a Clínica de Odontologia com diversos tratamentos e a Farmácia Comunitária "Vital Brazil" para doação e retirada de medicamentos em parceria com a PUC/Sorocaba.
+===
+Titulo: O Mundo do Trabalho
+Texto: Procurando estágio? O Setor de Estágio, localizado no 1º andar do Prédio Administrativo, ajuda você com toda a documentação. E para facilitar a busca, os alunos podem cadastrar o currículo na plataforma Burh, que é uma grande parceira da Uniso para o mercado de trabalho!
+===
+Titulo: Uniso Pelo Mundo
+Texto: Já pensou em estudar fora do Brasil? A Assessoria de Relações Nacionais e Internacionais (ARNI) gerencia a nossa área global. A Uniso possui convênios com instituições internacionais que possibilitam o intercâmbio acadêmico para estudantes de Graduação viverem essa experiência!
+===
+Titulo: O Coração Administrativo
+Texto: Precisa resolver uma questão acadêmica ou financeira? O SAA (Serviço de Atendimento ao Aluno) e o SECOB (Setor de Cobrança) ficam no 1º andar do Prédio Administrativo na Cidade Universitária. Para evitar filas, os atendimentos presenciais devem ser agendados pela Área do Aluno ou APP.
+===
+Titulo: A Sua Opinião Importa!
+Texto: Você sabia que pode ajudar a melhorar a nossa universidade? A Comissão Própria de Avaliação (CPA) conduz questionários pelo APP Uniso para avaliar cursos e professores. O sigilo do aluno é garantido, e os resultados geram projetos práticos de melhoria em todo o câmpus!

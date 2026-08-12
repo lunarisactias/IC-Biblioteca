@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd86c9e97ee5cfd4498f83e837b04a5a, type: 3}
+  m_Name: AchadosePerdidos
+  m_EditorClassIdentifier: Assembly-CSharp::InfoSignData
+  signTitle: Achados e Perdidos
+  signText: "Esqueceu o caderno ou perdeu a chave do carro? N\xE3o se desespere!
+    A nossa \xE1rea de Achados e Perdidos fica na Recep\xE7\xE3o Central do Pr\xE9dio
+    Administrativo na Cidade Universit\xE1ria. Se estiver no C\xE2mpus Trujillo,
+    basta procurar os atendentes nos corredores durante a noite."

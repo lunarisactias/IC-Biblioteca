@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Coffee
   - Ground
+  - Enemy
+  - DeathZone
   layers:
   - Default
   - TransparentFX

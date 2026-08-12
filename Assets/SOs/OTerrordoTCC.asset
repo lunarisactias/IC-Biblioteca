@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd86c9e97ee5cfd4498f83e837b04a5a, type: 3}
+  m_Name: OTerrordoTCC
+  m_EditorClassIdentifier: Assembly-CSharp::InfoSignData
+  signTitle: O Terror do TCC?
+  signText: "Est\xE1 com dificuldades para formatar o seu trabalho acad\xEAmico?
+    N\xE3o entre em p\xE2nico! Nossa equipe de bibliotec\xE1rios oferece capacita\xE7\xE3o
+    e orienta\xE7\xE3o individual para ajudar os alunos a dominarem as Normas ABNT
+    e a formata\xE7\xE3o de teses e disserta\xE7\xF5es."

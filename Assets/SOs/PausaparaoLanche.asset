@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd86c9e97ee5cfd4498f83e837b04a5a, type: 3}
+  m_Name: PausaparaoLanche
+  m_EditorClassIdentifier: Assembly-CSharp::InfoSignData
+  signTitle: Pausa para o Lanche
+  signText: "Bateu aquela fome nos intervalos de aula? Op\xE7\xF5es n\xE3o faltam!
+    A Cidade Universit\xE1ria conta com um restaurante completo no Bloco D, al\xE9m
+    de diversas cantinas, m\xE1quinas de snacks, food trucks e at\xE9 micro-ondas
+    \xE0 disposi\xE7\xE3o dos alunos espalhados pelos blocos!"

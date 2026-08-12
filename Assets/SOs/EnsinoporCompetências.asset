@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd86c9e97ee5cfd4498f83e837b04a5a, type: 3}
+  m_Name: "EnsinoporCompet\xEAncias"
+  m_EditorClassIdentifier: Assembly-CSharp::InfoSignData
+  signTitle: "Ensino por Compet\xEAncias"
+  signText: "Desde 2022, os cursos da Uniso adotaram um curr\xEDculo focado em conhecimentos,
+    habilidades e atitudes. A teoria e a pr\xE1tica caminham sempre juntas, com Projetos
+    Integradores desenvolvidos a cada semestre e disciplinas focadas na sua Vida
+    e Carreira."

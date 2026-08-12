@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd86c9e97ee5cfd4498f83e837b04a5a, type: 3}
+  m_Name: OPatrono
+  m_EditorClassIdentifier: Assembly-CSharp::InfoSignData
+  signTitle: O Patrono
+  signText: "O nome da nossa biblioteca homenageia Monsenhor Alu\xEDsio de Almeida,
+    um grande pesquisador apaixonado por nossa cidade. A partir de 1939, ele passava
+    horas vasculhando arquivos da prefeitura e cart\xF3rios para preservar a mem\xF3ria
+    e a hist\xF3ria sorocabana. Um verdadeiro guardi\xE3o do conhecimento!"

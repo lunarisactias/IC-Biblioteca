@@ -64,11 +64,25 @@ public class CoffeeMinigameManager : MonoBehaviour
 
     private void CloseMinigame()
     {
+        if (SceneManager.sceneCount > 1)
+        {
+            SceneManager.UnloadSceneAsync(gameObject.scene.buildIndex);
+        }
+        else
+        {
+            Debug.LogWarning("Teste isolado: cena não será fechada.");
+        }
+
         if (Player.instance != null)
         {
             Player.instance.GetComponent<PlayerMovement>().canMove = true;
         }
 
-        SceneManager.UnloadSceneAsync(gameObject.scene.buildIndex);
+        if (MinigameCallback.pendingDialogue != null)
+        {
+            DialogueManager.instance.StartDialogue(MinigameCallback.pendingDialogue);
+
+            MinigameCallback.pendingDialogue = null;
+        }
     }
 }

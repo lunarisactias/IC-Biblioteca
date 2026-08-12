@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd86c9e97ee5cfd4498f83e837b04a5a, type: 3}
+  m_Name: UnisoPeloMundo
+  m_EditorClassIdentifier: Assembly-CSharp::InfoSignData
+  signTitle: Uniso Pelo Mundo
+  signText: "J\xE1 pensou em estudar fora do Brasil? A Assessoria de Rela\xE7\xF5es
+    Nacionais e Internacionais (ARNI) gerencia a nossa \xE1rea global. A Uniso possui
+    conv\xEAnios com institui\xE7\xF5es internacionais que possibilitam o interc\xE2mbio
+    acad\xEAmico para estudantes de Gradua\xE7\xE3o viverem essa experi\xEAncia!"

@@ -11,6 +11,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BalanceMinigame.unity
     guid: 40a580dcca4be384cbca41356643c3a4
+  - enabled: 1
+    path: Assets/Scenes/CleaningMinigame.unity
+    guid: f912e5eb8da653b4a81c406400941d02
+  - enabled: 1
+    path: Assets/Scenes/CollectMinigame.unity
+    guid: 533d13b82a3b6f24b849e93da8641ba1
+  - enabled: 1
+    path: Assets/Scenes/MemoryMinigame.unity
+    guid: 28853565ddcfad543a996b76a2825ca1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

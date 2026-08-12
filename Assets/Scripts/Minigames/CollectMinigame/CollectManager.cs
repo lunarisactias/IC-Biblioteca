@@ -78,11 +78,23 @@ public class CollectManager : MonoBehaviour
 
     private void CloseMinigame()
     {
+        if (SceneManager.sceneCount > 1)
+        {
+            SceneManager.UnloadSceneAsync(gameObject.scene.buildIndex);
+        }
+        else
+        {
+            Debug.LogWarning("Teste isolado: cena não será fechada.");
+        }
         if (Player.instance != null)
         {
             Player.instance.GetComponent<PlayerMovement>().canMove = true;
         }
+        if (MinigameCallback.pendingDialogue != null)
+        {
+            DialogueManager.instance.StartDialogue(MinigameCallback.pendingDialogue);
 
-        SceneManager.UnloadSceneAsync(gameObject.scene.buildIndex);
+            MinigameCallback.pendingDialogue = null;
+        }
     }
 }

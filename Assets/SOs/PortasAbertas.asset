@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd86c9e97ee5cfd4498f83e837b04a5a, type: 3}
+  m_Name: PortasAbertas
+  m_EditorClassIdentifier: Assembly-CSharp::InfoSignData
+  signTitle: Portas Abertas
+  signText: "Acha que a biblioteca \xE9 s\xF3 para alunos matriculados? Que nada!
+    A Biblioteca Alu\xEDsio de Almeida \xE9 aberta para toda a comunidade de Sorocaba
+    e regi\xE3o. Qualquer visitante pode entrar e ler nossos livros, revistas e jornais
+    aqui mesmo, basta apresentar um documento com foto na recep\xE7\xE3o."

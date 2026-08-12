@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd86c9e97ee5cfd4498f83e837b04a5a, type: 3}
+  m_Name: "ASuaOpini\xE3oImporta!"
+  m_EditorClassIdentifier: Assembly-CSharp::InfoSignData
+  signTitle: "A Sua Opini\xE3o Importa!"
+  signText: "Voc\xEA sabia que pode ajudar a melhorar a nossa universidade? A Comiss\xE3o
+    Pr\xF3pria de Avalia\xE7\xE3o (CPA) conduz question\xE1rios pelo APP Uniso para
+    avaliar cursos e professores. O sigilo do aluno \xE9 garantido, e os resultados
+    geram projetos pr\xE1ticos de melhoria em todo o c\xE2mpus!"
